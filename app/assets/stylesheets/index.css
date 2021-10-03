@@ -28,8 +28,8 @@ body {
 .box {
   position: absolute;
   background: white;
-  width: 5px;
-  height: 5px;
+  width: 7px;
+  height: 7px;
   margin: 10px;
   bottom: 350px;
   transition: 0.5s;
@@ -88,3 +88,4 @@ body {
   font-weight: bold;
   color: white;
 }
+
