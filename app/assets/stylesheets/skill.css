@@ -8,8 +8,6 @@
 }
 
 .skill-btn {
-  height: 500px;
-  width: 500px;
   display: flex;
 }
 
@@ -32,19 +30,6 @@
   max-height: 80%;
   max-width: 600px;
 }
-
-/* クローズアイコン */
-.my_modal_close3{
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  cursor: pointer;
-}
-
 /* チェック時オーバーレイとコンテンツを表示 */
 #my_modal3:checked ~ .my_modal_body3, #my_modal3:checked ~ .my_modal_overlay{
   display: block;
@@ -57,12 +42,14 @@
   transform: translate(-50%,-50%);
   color: #fff;
   text-shadow: 0 0 20px #FFFF00;
-  top: 500px;
+  top: 700px;
   left: 50vw;
   border: 1px solid #fff;
   padding-bottom: 15px;
   cursor: pointer;
   cursor: hand;
+  border-radius: 30px;
+  padding: 0 10px 16px 10px;
 }
 
 .neon3::after {

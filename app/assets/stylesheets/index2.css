@@ -97,9 +97,10 @@
   top: 100px;
   left: 50vw;
   border: 1px solid #fff;
-  padding-bottom: 15px;
+  padding: 0 10px 16px 10px;
   cursor: pointer;
   cursor: hand;
+  border-radius: 30px;
 }
 
 .neon::after {
