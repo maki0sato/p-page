@@ -7,20 +7,17 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.profile-btn {
+.skill-btn {
   height: 500px;
   width: 500px;
   display: flex;
 }
-/* ボタン（デザインはお好みで） */
 
-
-/* チェックボックスを非表示 */
-#my_modal1{
+#my_modal3{
   display: none;
 }
 /* モーダル */
-.my_modal_body1{    
+.my_modal_body3{    
   display: none;
   position: fixed;
   z-index: 100000;
@@ -36,21 +33,8 @@
   max-width: 600px;
 }
 
-/* モーダル内ヘッダー */
-.my_modal_header{
-  padding: 15px 10px;
-  background-color: #23282D;
-  color: #FFF;
-  font-weight: bold;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  text-align: center;
-}
-
 /* クローズアイコン */
-.my_modal_close{
+.my_modal_close3{
   position: absolute;
   width: 20px;
   height: 20px;
@@ -61,40 +45,19 @@
   cursor: pointer;
 }
 
-/* コンテンツ表示 */
-.my_modal_content{
-  padding: 5px 10px;
-}
-
-/* 背景を暗くする */
-.my_modal_overlay{
-  display: none;
-  position: fixed;
-  z-index: 90000;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  background-color: #111;
-  opacity: 0.3;
-  cursor: pointer;
-}
-
 /* チェック時オーバーレイとコンテンツを表示 */
-#my_modal1:checked ~ .my_modal_body1, #my_modal1:checked ~ .my_modal_overlay{
+#my_modal3:checked ~ .my_modal_body3, #my_modal3:checked ~ .my_modal_overlay{
   display: block;
 }
 
-.neon {
+.neon3 {
   position: absolute;
   text-align: center;
   font-size: 100px;
   transform: translate(-50%,-50%);
   color: #fff;
-  text-shadow: 0 0 20px #00FF00;
-  top: 100px;
+  text-shadow: 0 0 20px #FFFF00;
+  top: 500px;
   left: 50vw;
   border: 1px solid #fff;
   padding-bottom: 15px;
@@ -102,24 +65,24 @@
   cursor: hand;
 }
 
-.neon::after {
-  content: attr(profile-text);
+.neon3::after {
+  content: attr(skill-text);
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  color: #00FF00;
+  color: #FFFF00;
   filter: blur(15px);
 }
 
-.neon::before {
+.neon3::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #CCFF33;
+  background: #FFFF66;
   z-index: -2;
   opacity: .5;
   filter: blur(40px);
