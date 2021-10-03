@@ -22,18 +22,17 @@
 /* モーダル */
 .my_modal_body1{
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 100000;
-  top: 20%;
+  top: 395px;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
   display: none;
   background:rgba(0,255,0,0.5);
   backdrop-filter: blur(12px);
-  overflow-y: auto;
-  width: 90%;
-  max-height: 80%;
+  overflow: scroll;
+  min-height: 100%;
   max-width: 600px;
   border-radius: 20px;
   color: white;
