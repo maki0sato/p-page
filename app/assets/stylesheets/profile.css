@@ -13,7 +13,7 @@ body {
 }
 
 .back {
-  background: linear-gradient(#000033, #000000);
+  background: linear-gradient(#000099, #000000);
 }
 
 .content {
@@ -28,16 +28,17 @@ body {
 .box {
   position: absolute;
   background: white;
-  width: 100px;
-  height: 100px;
+  width: 5px;
+  height: 5px;
   margin: 10px;
   bottom: 350px;
   transition: 0.5s;
 }
 
 .box:hover {
+  background: #fff;
   width: 100vw;
-	height: 100px;
+	height: 5px;
   transition: all 0.5s;
 }
 
