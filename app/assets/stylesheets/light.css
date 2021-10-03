@@ -18,6 +18,26 @@
   left: 61vw;
 }
 
+.container3 {
+	height: 100vh;
+	width: 100px;
+	animation: animate 4s linear infinite;
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  left: 61vw;
+}
+
+.container4 {
+	height: 100vh;
+	width: 100px;
+	animation: animate 4s linear infinite;
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  left: 0vw;
+}
+
 
 .light {
 	width: 550px;
