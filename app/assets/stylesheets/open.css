@@ -9,8 +9,6 @@
   left: 70vw;
   border: 1px solid #fff;
   border-radius: 30px;
-  cursor: pointer;
-  cursor: hand;
   padding: 0 10px 16px 10px;
   transform: skewY(10deg);
   transform-origin: top right;

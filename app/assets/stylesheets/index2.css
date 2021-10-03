@@ -20,26 +20,28 @@
   display: none;
 }
 /* モーダル */
-.my_modal_body1{    
+.my_modal_body1{
   display: none;
   position: fixed;
   z-index: 100000;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
   display: none;
-  background-color: #FFF;
+  background:rgba(0,255,0,0.5);
+  backdrop-filter: blur(12px);
   overflow-y: auto;
   width: 90%;
   max-height: 80%;
   max-width: 600px;
+  border-radius: 20px;
+  color: white;
 }
 
 /* モーダル内ヘッダー */
 .my_modal_header{
   padding: 15px 10px;
-  background-color: #23282D;
   color: #FFF;
   font-weight: bold;
   position: -webkit-sticky;

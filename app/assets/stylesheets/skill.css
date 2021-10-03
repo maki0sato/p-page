@@ -15,20 +15,22 @@
   display: none;
 }
 /* モーダル */
-.my_modal_body3{    
-  display: none;
+.my_modal_body3 {
   position: fixed;
   z-index: 100000;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
   display: none;
-  background-color: #FFF;
+  background:rgba(255,255,0,0.5);
+  backdrop-filter: blur(12px);
   overflow-y: auto;
   width: 90%;
   max-height: 80%;
   max-width: 600px;
+  border-radius: 20px;
+  color: white;
 }
 /* チェック時オーバーレイとコンテンツを表示 */
 #my_modal3:checked ~ .my_modal_body3, #my_modal3:checked ~ .my_modal_overlay{
