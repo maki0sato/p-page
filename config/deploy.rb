@@ -1,4 +1,4 @@
-look '3.16.0'
+lock '3.16.0'
 
 set :application, 'p-page'
 
