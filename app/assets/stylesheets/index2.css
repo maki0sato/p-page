@@ -31,8 +31,9 @@
   display: none;
   background:rgba(0,255,0,0.5);
   backdrop-filter: blur(12px);
-  overflow: auto;
-  min-height: 100%;
+  overflow-y: auto;
+  width: 90%;
+  max-height: 80%;
   max-width: 600px;
   border-radius: 20px;
   color: white;
@@ -48,18 +49,6 @@
   top: 0;
   z-index: 1;
   text-align: center;
-}
-
-/* クローズアイコン */
-.my_modal_close{
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  cursor: pointer;
 }
 
 /* コンテンツ表示 */
