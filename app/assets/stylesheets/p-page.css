@@ -54,7 +54,7 @@
   cursor: pointer;
   cursor: hand;
   border-radius: 30px;
-  padding: 0 10px 16px 10px;
+  padding: 0 10px 16px 15px;
   transform: skewY(10deg);
   transform-origin: top right;
 }
