@@ -72,6 +72,11 @@
   cursor: pointer;
 }
 
+.ss {
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
 /* チェック時オーバーレイとコンテンツを表示 */
 #my_modal1:checked ~ .my_modal_body1, #my_modal1:checked ~ .my_modal_overlay{
   display: block;
