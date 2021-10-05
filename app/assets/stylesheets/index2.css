@@ -47,8 +47,9 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 100001;
   text-align: center;
+  backdrop-filter: blur(150px);
 }
 
 /* コンテンツ表示 */
