@@ -1,58 +1,350 @@
 .container1 {
-	height: 100vh;
+	height: 100px;
 	width: 100px;
-	animation: animate 4s linear infinite;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
   position: absolute;
   text-align: center;
-  top: 0px;
-  left: 0px;
+  top: -10px;
+  left: -10px;
 }
 
 .container2 {
-	height: 100vh;
+	height: 100px;
 	width: 100px;
-	animation: animate 4s linear infinite;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
   position: absolute;
   text-align: center;
-  top: 0px;
-  left: 61vw;
+  top: 100px;
+  left: 40px;
 }
 
 .container3 {
-	height: 100vh;
+	height: 100px;
 	width: 100px;
-	animation: animate 4s linear infinite;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
   position: absolute;
   text-align: center;
-  top: 700px;
-  left: 61vw;
+  top: 120px;
+  left: 60px;
 }
 
 .container4 {
-	height: 100vh;
+	height: 100px;
 	width: 100px;
-	animation: animate 4s linear infinite;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
   position: absolute;
   text-align: center;
-  top: 700px;
-  left: 0vw;
+  top: 100px;
+  left: 200px;
 }
 
+.container5 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left: 250px;
+}
+
+.container6 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  left: 400px;
+}
+
+.container7 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: -20px;
+  left: 300px;
+}
+
+.container8 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 555px;
+  left: 40px;
+}
+
+.container9 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 345px;
+  left: 40px;
+}
+
+.container10 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 450px;
+  left: 40px;
+}
+
+.container11 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 450px;
+  left: 145px;
+}
+
+.container12 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 450px;
+  left: 250px;
+}
+
+.container13 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 555px;
+  left: 250px;
+}
+
+.container14 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 555px;
+  left: 355px;
+}
+
+.container15 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 660px;
+  left: 355px;
+}
+
+.container16 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 660px;
+  left: 460px;
+}
+
+.container17 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 660px;
+  left: 40px;
+}
+
+.container18 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 660px;
+  left: 145px;
+}
+
+.container19 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 660px;
+  left: 250px;
+}
+
+.container20 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 555px;
+  left: 145px;
+}
+
+.container21 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  left: 900px;
+	transform: rotate(15deg)
+}
+
+.container22 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 630px;
+  left: 1030px;
+	transform: rotate(30deg)
+}
+
+.container23 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 680px;
+  left: 1160px;
+	transform: rotate(45deg)
+}
+
+.container24 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  left: 1290px;
+	transform: rotate(75deg)
+}
+
+.container25 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 750px;
+  left: 1290px;
+	transform: rotate(95deg)
+}
+
+.container26 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 750px;
+  left: 850px;
+	transform: rotate(50deg)
+}
+
+.container27 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 720px;
+  left: 1000px;
+	transform: rotate(70deg)
+}
+
+.container28 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+	animation: rotation 2s linear infinite;
+	animation-delay: 0.5s;
+  top: 20px;
+  left: 1000px;
+}
+
+.container29 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+	animation: rotation 2s linear infinite;
+	animation-delay: 1s;
+  top: 20px;
+  left: 1105px;
+}
+
+.container30 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+	animation: rotation 2s linear infinite;
+	animation-delay: 1.5s;
+  top: 20px;
+  left: 1210px;
+}
+
+.container31 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+	animation: rotation 2s linear infinite;
+	animation-delay: 2s;
+  top: 20px;
+  left: 1315px;
+}
+
+@keyframes rotation{
+  0%{ transform:rotateX(0);}
+	50%{ transform:rotateX(0deg);}
+  100%{ transform:rotateX(180deg); }
+}
 
 .light {
-	width: 550px;
-	height: 100px;
+	width: 300px;
+	height: 300px;
 	background: #0f0;
+	animation: animate 4s linear infinite;
+
 }
 
 
 @keyframes animate{
 	0%
 	{
-		filter: hue-rotate(0deg) blur(50px);
+		filter: hue-rotate(0deg);
 	}
 	100%
 	{
-		filter: hue-rotate(360deg) blur(50px);
+		filter: hue-rotate(360deg);
 	}
 }
