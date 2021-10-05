@@ -83,3 +83,9 @@
 .bsss {
   border-radius: 20px;
 }
+
+.neon2:hover {
+  color: #fff;
+  background: #00FFFF;
+  box-shadow: 0 0 10px #00FFFF, 0 0 40px #00FFFF, 0 0 80px #00FFFF;
+}

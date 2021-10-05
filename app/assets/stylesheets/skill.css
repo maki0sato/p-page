@@ -76,3 +76,9 @@
   opacity: .5;
   filter: blur(40px);
 }
+
+.neon3:hover {
+  color: #fff;
+  background: #FFFF00;
+  box-shadow: 0 0 10px #FFFF00, 0 0 40px #FFFF00, 0 0 80px #FFFF00;
+}
