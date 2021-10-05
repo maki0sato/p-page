@@ -75,7 +75,7 @@
   position: absolute;
   text-align: center;
   top: 555px;
-  left: 40px;
+  left: 30px;
 }
 
 .container9 {
@@ -85,7 +85,7 @@
   position: absolute;
   text-align: center;
   top: 345px;
-  left: 40px;
+  left: 30px;
 }
 
 .container10 {
@@ -95,7 +95,7 @@
   position: absolute;
   text-align: center;
   top: 450px;
-  left: 40px;
+  left: 30px;
 }
 
 .container11 {
@@ -105,7 +105,7 @@
   position: absolute;
   text-align: center;
   top: 450px;
-  left: 145px;
+  left: 135px;
 }
 
 .container12 {
@@ -115,7 +115,7 @@
   position: absolute;
   text-align: center;
   top: 450px;
-  left: 250px;
+  left: 240px;
 }
 
 .container13 {
@@ -125,7 +125,7 @@
   position: absolute;
   text-align: center;
   top: 555px;
-  left: 250px;
+  left: 240px;
 }
 
 .container14 {
@@ -135,7 +135,7 @@
   position: absolute;
   text-align: center;
   top: 555px;
-  left: 355px;
+  left: 345px;
 }
 
 .container15 {
@@ -145,7 +145,7 @@
   position: absolute;
   text-align: center;
   top: 660px;
-  left: 355px;
+  left: 345px;
 }
 
 .container16 {
@@ -155,7 +155,7 @@
   position: absolute;
   text-align: center;
   top: 660px;
-  left: 460px;
+  left: 450px;
 }
 
 .container17 {
@@ -165,7 +165,7 @@
   position: absolute;
   text-align: center;
   top: 660px;
-  left: 40px;
+  left: 30px;
 }
 
 .container18 {
@@ -175,7 +175,7 @@
   position: absolute;
   text-align: center;
   top: 660px;
-  left: 145px;
+  left: 135px;
 }
 
 .container19 {
@@ -185,7 +185,7 @@
   position: absolute;
   text-align: center;
   top: 660px;
-  left: 250px;
+  left: 240px;
 }
 
 .container20 {
@@ -195,7 +195,7 @@
   position: absolute;
   text-align: center;
   top: 555px;
-  left: 145px;
+  left: 135px;
 }
 
 .container21 {
@@ -321,6 +321,30 @@
 	animation-delay: 2s;
   top: 20px;
   left: 1315px;
+}
+
+
+.container32 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+	animation: rotation 2s linear infinite;
+	animation-delay: 2s;
+  top: 125px;
+  left: 1315px;
+}
+
+.container33 {
+	height: 100px;
+	width: 100px;
+	clip-path: polygon(0% 0%, 0% 100%, 2% 100%, 2% 2%, 98% 2%, 98% 98%, 2% 98%, 2% 100%, 100% 100%, 100% 0%);
+  position: absolute;
+  text-align: center;
+  top: 450px;
+  left: 1390px;
+	transform: rotate(95deg)
 }
 
 @keyframes rotation{
