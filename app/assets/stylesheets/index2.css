@@ -34,7 +34,7 @@
   overflow-y: auto;
   width: 90%;
   max-height: 80%;
-  max-width: 850px;
+  max-width: 800px;
   border-radius: 20px;
   color: white;
 }
@@ -76,6 +76,10 @@
 .ss {
   border-radius: 20px;
   border: 1px solid #fff;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* チェック時オーバーレイとコンテンツを表示 */
