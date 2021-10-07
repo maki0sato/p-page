@@ -35,6 +35,13 @@
   color: white;
 }
 
+.line {
+  margin: 10px 0;
+  max-width: 800px;
+  max-height: 1px;
+  border-bottom: 1px solid white;
+}
+
 /* チェック時オーバーレイとコンテンツを表示 */
 #my_modal2:checked ~ .my_modal_body2, #my_modal2:checked ~ .my_modal_overlay{
   display: block;
@@ -56,6 +63,7 @@
   border-radius: 30px;
   padding: 0 10px 16px 10px;
 }
+
 
 .neon2::after {
   content: attr(portfolio-text);

@@ -1,4 +1,4 @@
-<div class="back">
+<div class="neon-back">
   <div class="profile-btn">
     <label for="my_modal1" class="neon" profile-text="profile">profile</label><!-- チェックボックスラベル -->
     <input type="checkbox" id="my_modal1"><!-- 非表示チェックボックス -->
@@ -51,6 +51,26 @@
               <li>README：<%= link_to  "https://github.com/maki0sato/books-passage", "https://github.com/maki0sato/books-passage", target: :_blank, rel: "noopener noreferrer" %></li>
               <li>[開発環境]Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code</li>
               <li>[デプロイ]Heroku</li>
+              <div class=line></div>
+              <li>p-page</li>
+              <li>このプロフィールページの紹介です。</li>
+              <li>夜のネオン街をイメージして作りました。</li>
+              <li>昭和風のネオン街をイメージして制作を始めたのですが、作っていくうちに少しサイバーパンクっぽくなりました。気に入っています。</li>
+              <li>モーダルウィンドウや、CSSのanimation、AWSでのデプロイなど初めて使用しました。</li>
+              <li>楽しみながら作ることができました。</li>
+              <li></li>
+              <li>制作期間は3日程度(一日平均作業時間は約8時間)</li>
+              <%= link_to 'http://18.181.136.74:', target: :_blank, rel: "noopener noreferrer" do %>
+                <%= image_tag 'top-ss.png', size: '288x158', class: "ss"  %>
+              <li>http://18.181.136.74:</li>
+              <% end %>
+              <%= link_to 'http://18.181.136.74/profile/index2', target: :_blank, rel: "noopener noreferrer" do %>
+                <%= image_tag 'ppage.jpeg', size: '288x158', class: "ss"  %>
+              <li>http://18.181.136.74/profile/index2</li>
+              <% end %>
+              <li >GitHub：<%= link_to  "https://github.com/maki0sato/furima-36733", "https://github.com/maki0sato/p-page", target: :_blank, rel: "noopener noreferrer" %></li>
+              <li>[開発環境]Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code</li>
+              <li>[デプロイ]AWS</li>
          </ul>
       </div>
     </div>
@@ -111,7 +131,7 @@
     </div>
   </div>
 
-  <div class="p-page-btn">
+  <div class="p-page-btn" id="btn">
     <label for="my_modal7" class="neon7" p-page-text="p-page">p-page</label><!-- チェックボックスラベル -->
     <input type="checkbox" id="my_modal7"><!-- 非表示チェックボックス -->
     <label class="my_modal_overlay" for="my_modal7"></label><!-- オーバーレイ -->
@@ -122,27 +142,7 @@
       <div class="my_modal_content">
         <!-- モーダル内コンテンツ -->
           <ul>
-              <li>このプロフィールページの紹介です。</li>
-              <li></li>
-              <li>夜のネオン街をイメージして作りました。</li>
-              <li>昭和風のネオン街をイメージして制作を始めたのですが、作っていくうちに少しサイバーパンクっぽくなりました。気に入っています。</li>
-              <li>モーダルウィンドウや、CSSのanimation、AWSでのデプロイなど初めて使用しました。</li>
-              <li>楽しみながら作ることができました。</li>
-              <li></li>
-              <li>制作期間は3日程度(一日平均作業時間は約8時間)</li>
-              <li></li>
-              <%= link_to 'http://18.181.136.74:', target: :_blank, rel: "noopener noreferrer" do %>
-                <%= image_tag 'top-ss.png', size: '288x158', class: "ss"  %>
-              <li>http://18.181.136.74:</li>
-              <% end %>
-              <%= link_to 'http://18.181.136.74/profile/index2', target: :_blank, rel: "noopener noreferrer" do %>
-                <%= image_tag 'ppagess.jpeg', size: '288x158', class: "ss"  %>
-              <li>http://18.181.136.74/profile/index2</li>
-              <% end %>
-              <li></li>
-              <li>GitHubUrl :https://github.com/maki0sato/p-page</li>
-              <li>[開発環境]Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code</li>
-              <li>[デプロイ]AWS</li>
+              
          </ul>
       </div>
     </div>

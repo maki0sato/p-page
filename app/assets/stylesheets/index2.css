@@ -7,6 +7,10 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+.neon-back {
+  background: linear-gradient(#000099, #000000);
+}
+
 .profile-btn {
   height: 500px;
   width: 500px;
