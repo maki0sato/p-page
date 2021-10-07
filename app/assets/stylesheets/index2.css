@@ -9,6 +9,8 @@
 
 .neon-back {
   background: linear-gradient(#000099, #000000);
+  width: 100vw;
+  height: 100vh;
 }
 
 .profile-btn {

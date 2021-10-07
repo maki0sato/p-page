@@ -7,11 +7,10 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.portfolio-btn {
+.p-page-btn {
   height: 500px;
   width: 500px;
   display: flex;
-  
 }
 
 #my_modal7{
